@@ -1,0 +1,141 @@
+{
+  "_comment": "Synthetic Apollo GET /api/v1/organizations/enrich responses keyed by domain.",
+  "responses": {
+    "example-corp.com": {
+      "organization": {
+        "id": "apolloorg101",
+        "name": "Synthetic",
+        "estimated_num_employees": 210,
+        "current_technologies": [
+          {
+            "uid": "hubspot",
+            "name": "HubSpot",
+            "category": "Synthetic"
+          },
+          {
+            "uid": "slack",
+            "name": "Slack",
+            "category": "Synthetic"
+          }
+        ],
+        "funding_events": [
+          {
+            "id": "f1",
+            "date": "2026-05-10",
+            "type": "Series B",
+            "amount": 60000000,
+            "currency": "USD",
+            "investors": "Synthetic Ventures",
+            "news_url": "https://news.example-corp.com/series-b"
+          },
+          {
+            "id": "f0",
+            "date": "2024-01-15",
+            "type": "Series A",
+            "amount": 12000000,
+            "currency": "USD"
+          }
+        ]
+      }
+    },
+    "synthetic-beta.example": {
+      "organization": {
+        "id": "apolloorg102",
+        "name": "Synthetic",
+        "estimated_num_employees": 130,
+        "current_technologies": [
+          {
+            "uid": "hubspot",
+            "name": "HubSpot",
+            "category": "Synthetic"
+          },
+          {
+            "uid": "snowflake",
+            "name": "Snowflake",
+            "category": "Synthetic"
+          },
+          {
+            "uid": "segment",
+            "name": "Segment",
+            "category": "Synthetic"
+          },
+          {
+            "uid": "notion",
+            "name": "Notion",
+            "category": "Synthetic"
+          }
+        ],
+        "funding_events": []
+      }
+    },
+    "gamma-industries.example": {
+      "organization": {
+        "id": "apolloorg103",
+        "name": "Synthetic",
+        "estimated_num_employees": 505,
+        "current_technologies": [
+          {
+            "uid": "hubspot",
+            "name": "HubSpot",
+            "category": "Synthetic"
+          },
+          {
+            "uid": "zendesk",
+            "name": "Zendesk",
+            "category": "Synthetic"
+          }
+        ],
+        "funding_events": []
+      }
+    },
+    "zeta-unknown.example": {
+      "error": {
+        "message": "Request failed with status code 404",
+        "httpCode": "404"
+      }
+    },
+    "eta-health.example": {
+      "organization": {
+        "id": "apolloorg107",
+        "name": "Synthetic",
+        "estimated_num_employees": 82,
+        "current_technologies": [
+          {
+            "uid": "hubspot",
+            "name": "HubSpot",
+            "category": "Synthetic"
+          }
+        ],
+        "funding_events": [
+          {
+            "id": "f2",
+            "date": "2026-05-25",
+            "type": "Seed",
+            "amount": 3000000,
+            "currency": "USD"
+          }
+        ]
+      }
+    },
+    "theta-retail.example": {
+      "organization": {
+        "id": "apolloorg108",
+        "name": "Synthetic",
+        "estimated_num_employees": 40,
+        "current_technologies": [
+          {
+            "uid": "shopify",
+            "name": "Shopify",
+            "category": "Synthetic"
+          },
+          {
+            "uid": "klaviyo",
+            "name": "Klaviyo",
+            "category": "Synthetic"
+          }
+        ],
+        "funding_events": []
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_comment": "Synthetic n8n Webhook output for a Clay HTTP API column callback. The secret header is replaced at test time.",
+  "item": {
+    "headers": {
+      "content-type": "application/json",
+      "x-radar-secret": "REPLACE_WITH_RADAR_WEBHOOK_SECRET"
+    },
+    "params": {},
+    "query": {},
+    "body": {
+      "hubspot_company_id": "103",
+      "domain": "gamma-industries.example",
+      "company_name": "Synthetic Company Gamma",
+      "owner_id": "901",
+      "signals": [
+        {
+          "type": "EXEC_HIRING_SPIKE",
+          "title": "New Chief Data Officer appointed",
+          "occurred_at": "2026-05-28",
+          "source_url": "https://news.gamma-industries.example/cdo",
+          "detail": "Synthetic press release announcing a new CDO."
+        },
+        {
+          "type": "intent_surge",
+          "title": "Researching data warehouse migration",
+          "weight": 30
+        }
+      ]
+    }
+  }
+}

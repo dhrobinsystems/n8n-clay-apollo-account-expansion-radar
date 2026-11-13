@@ -1,0 +1,150 @@
+{
+  "_comment": "Synthetic HubSpot company search pages (POST /crm/v3/objects/companies/search). All names and domains are fictitious.",
+  "pages": [
+    {
+      "total": 9,
+      "results": [
+        {
+          "id": "101",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "101",
+            "name": "Synthetic Company Alpha",
+            "domain": "example-corp.com",
+            "website": "",
+            "hubspot_owner_id": "901",
+            "lifecyclestage": "customer",
+            "expansion_radar_last_checked_at": "2026-05-20T09:00:00.000Z",
+            "expansion_radar_tech_snapshot": "HubSpot; Slack",
+            "expansion_radar_headcount_snapshot": "200"
+          }
+        },
+        {
+          "id": "102",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "102",
+            "name": "Synthetic Company Beta",
+            "domain": "https://www.synthetic-beta.example/about",
+            "website": "",
+            "hubspot_owner_id": "901",
+            "lifecyclestage": "customer",
+            "expansion_radar_last_checked_at": "2026-05-15T09:00:00.000Z",
+            "expansion_radar_tech_snapshot": "HubSpot",
+            "expansion_radar_headcount_snapshot": "100"
+          }
+        },
+        {
+          "id": "103",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "103",
+            "name": "Synthetic Company Gamma",
+            "domain": "gamma-industries.example",
+            "website": "",
+            "hubspot_owner_id": "901",
+            "lifecyclestage": "customer",
+            "expansion_radar_last_checked_at": "2026-05-10T09:00:00.000Z",
+            "expansion_radar_tech_snapshot": "HubSpot; Zendesk",
+            "expansion_radar_headcount_snapshot": "500"
+          }
+        },
+        {
+          "id": "104",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "104",
+            "name": "Synthetic Company Delta",
+            "domain": "delta-logistics.example",
+            "website": "",
+            "hubspot_owner_id": "901",
+            "lifecyclestage": "customer",
+            "expansion_radar_last_checked_at": "2026-05-30T09:00:00.000Z"
+          }
+        },
+        {
+          "id": "105",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "105",
+            "name": "Synthetic Company Epsilon",
+            "domain": "",
+            "website": "",
+            "hubspot_owner_id": "901",
+            "lifecyclestage": "customer"
+          }
+        }
+      ],
+      "paging": {
+        "next": {
+          "after": "5",
+          "link": ""
+        }
+      }
+    },
+    {
+      "total": 9,
+      "results": [
+        {
+          "id": "106",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "106",
+            "name": "Synthetic Company Zeta",
+            "domain": "zeta-unknown.example",
+            "website": "",
+            "hubspot_owner_id": "901",
+            "lifecyclestage": "customer",
+            "expansion_radar_last_checked_at": "2026-04-01T09:00:00.000Z",
+            "expansion_radar_tech_snapshot": "",
+            "expansion_radar_headcount_snapshot": "50"
+          }
+        },
+        {
+          "id": "107",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "107",
+            "name": "Synthetic Company Eta",
+            "domain": "eta-health.example",
+            "website": "",
+            "hubspot_owner_id": "901",
+            "lifecyclestage": "customer",
+            "expansion_radar_last_checked_at": "2026-05-01T09:00:00.000Z",
+            "expansion_radar_last_signal_at": "2026-05-22T09:00:00.000Z",
+            "expansion_radar_play": "expansion_upsell",
+            "expansion_radar_tech_snapshot": "HubSpot",
+            "expansion_radar_headcount_snapshot": "80"
+          }
+        },
+        {
+          "id": "108",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "108",
+            "name": "Synthetic Company Theta",
+            "domain": "theta-retail.example",
+            "website": "",
+            "hubspot_owner_id": "",
+            "lifecyclestage": "customer"
+          }
+        },
+        {
+          "id": "101",
+          "archived": false,
+          "properties": {
+            "hs_object_id": "101",
+            "name": "Synthetic Company Alpha",
+            "domain": "example-corp.com",
+            "website": "",
+            "hubspot_owner_id": "901",
+            "lifecyclestage": "customer",
+            "expansion_radar_last_checked_at": "2026-05-20T09:00:00.000Z",
+            "expansion_radar_tech_snapshot": "HubSpot; Slack",
+            "expansion_radar_headcount_snapshot": "200"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_comment": "Synthetic Apollo GET /api/v1/organizations/{id}/job_postings responses keyed by organization ID.",
+  "responses": {
+    "apolloorg101": {
+      "organization_job_postings": [
+        {
+          "id": "vp-of-engineering",
+          "title": "VP of Engineering",
+          "posted_at": "2026-05-20T00:00:00.000Z",
+          "city": "Synthetic City"
+        },
+        {
+          "id": "chief-revenue-officer",
+          "title": "Chief Revenue Officer",
+          "posted_at": "2026-05-18T00:00:00.000Z",
+          "city": "Synthetic City"
+        },
+        {
+          "id": "head-of-data-platform",
+          "title": "Head of Data Platform",
+          "posted_at": "2026-05-12T00:00:00.000Z",
+          "city": "Synthetic City"
+        },
+        {
+          "id": "director,-it-operations",
+          "title": "Director, IT Operations",
+          "posted_at": "2026-05-08T00:00:00.000Z",
+          "city": "Synthetic City"
+        },
+        {
+          "id": "senior-account-executive",
+          "title": "Senior Account Executive",
+          "posted_at": "2026-05-15T00:00:00.000Z",
+          "city": "Synthetic City"
+        },
+        {
+          "id": "vp-marketing",
+          "title": "VP Marketing",
+          "posted_at": "2026-03-01T00:00:00.000Z",
+          "city": "Synthetic City"
+        }
+      ]
+    },
+    "apolloorg102": {
+      "organization_job_postings": [
+        {
+          "id": "director-of-analytics",
+          "title": "Director of Analytics",
+          "posted_at": "2026-05-20T00:00:00.000Z",
+          "city": "Synthetic City"
+        },
+        {
+          "id": "data-engineer",
+          "title": "Data Engineer",
+          "posted_at": "2026-05-21T00:00:00.000Z",
+          "city": "Synthetic City"
+        }
+      ]
+    },
+    "apolloorg103": {
+      "organization_job_postings": []
+    },
+    "apolloorg107": {
+      "organization_job_postings": []
+    },
+    "apolloorg108": {
+      "error": {
+        "message": "Too Many Requests",
+        "httpCode": "429"
+      }
+    }
+  }
+}
