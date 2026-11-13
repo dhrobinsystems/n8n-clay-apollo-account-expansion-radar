@@ -29,6 +29,8 @@ A scheduled n8n workflow that watches your **existing HubSpot customers** for ex
 
 ## Architecture overview
 
+![n8n Account Expansion Radar Workflow](./assets/n8n-account-expansion-radar-workflow.png)
+
 ```mermaid
 flowchart LR
     S[Daily Schedule] --> C
